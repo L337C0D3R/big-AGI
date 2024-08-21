@@ -8,23 +8,22 @@
  */
 export const Brand = {
   Title: {
-    Base: 'big-AGI',
-    Common: (process.env.NODE_ENV === 'development' ? '[DEV] ' : '') + 'big-AGI',
+    Base: 'C0D3',
+    Common: (process.env.NODE_ENV === 'development' ? '[DEV] ' : '') + 'C0D3',
   },
   Meta: {
-    Description: 'Launch big-AGI to unlock the full potential of AI, with precise control over your data and models. Voice interface, AI personas, advanced features, and fun UX.',
-    SiteName: 'big-AGI | Precision AI for You',
+    Description: '',
+    SiteName: '',
     ThemeColor: '#32383E',
-    TwitterSite: '@enricoros',
+    TwitterSite: '@nandantrsn',
   },
   URIs: {
-    Home: 'https://big-agi.com',
-    // App: 'https://get.big-agi.com',
-    CardImage: 'https://big-agi.com/icons/card-dark-1200.png',
-    OpenRepo: 'https://github.com/enricoros/big-agi',
-    OpenProject: 'https://github.com/users/enricoros/projects/4',
-    SupportInvite: 'https://discord.gg/MkH4qj2Jp9',
+    Home: 'https://code.teamleetcoders.in',
+    CardImage: 'https://code.teamleetcoders.in/icons/card-dark-1200.png',
+    OpenRepo: 'https://github.com/L337C0D3R/big-AGI',
+    OpenProject: '',
+    SupportInvite: '',
     // Twitter: 'https://www.twitter.com/enricoros',
-    PrivacyPolicy: 'https://big-agi.com/privacy',
+    PrivacyPolicy: '',
   },
 } as const;
