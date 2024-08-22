@@ -80,8 +80,8 @@ export const env = createEnv({
 
 
     // Backend: HTTP Basic Authentication
-    HTTP_BASIC_AUTH_USERNAME: "nandantrsn",
-    HTTP_BASIC_AUTH_PASSWORD: "Qwerty@1337",
+    HTTP_BASIC_AUTH_USERNAME: z.string().optional(),
+    HTTP_BASIC_AUTH_PASSWORD: z.string().optional(),
 
     // Backend: Analytics flags (e.g. which hostname responds) for managed installs
     BACKEND_ANALYTICS: z.string().optional().transform(list => (list || '').split(';').filter(flag => !!flag)),
