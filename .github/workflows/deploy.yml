@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "l337c0d3r-big-agi-79"
-          entrypoint: "jsr:@deno/nextjs-start"
-          root: "."
-          include: .next, public
+          project: "l337c0d3r-big-agi-77"
+          entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
+          root: "build"
+          
           
